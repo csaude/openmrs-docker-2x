@@ -17,6 +17,7 @@ services:
          container_name: refapp-tomcat
          ports:
              - "8080:8080"
+             - "465:465"
          networks:
              - network
          depends_on:
