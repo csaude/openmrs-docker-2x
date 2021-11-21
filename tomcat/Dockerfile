@@ -7,3 +7,4 @@ ADD  setenv.sh /usr/local/tomcat/bin/setenv.sh
 COPY localtime /etc/localtime
 
 EXPOSE 8080
+EXPOSE 465
