@@ -11,6 +11,12 @@ data/OpenMRS/person_images
 data/OpenMRS/openmrs.log
 data/logs/
 data/OpenMRS/mozart2/
+data/OpenMRS/o3-spa/
+data/OpenMRS/lucene/
+data/OpenMRS/*.log
+data/OpenMRS/*.log.*
+data/OpenMRS/REPORT_RESULTS/
+data/OpenMRS/activemq-data/
 
 # Ignore the provided dump file
 mysql/openmrs.sql
