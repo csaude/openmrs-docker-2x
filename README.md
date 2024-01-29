@@ -9,7 +9,7 @@ Project can be used to either run an 2.6.1 instance or upgrade a 2.3.3 instance 
 **Note:** Don't forget to provide the required SQL dump file.
 
 ## Openmrs 3 UI SPA Deployment
-This Openmrs 3 UI SPA is deployed using the Openmrs spa backend module (already included in this configuration). The distribution files after being built [https://github.com/csaude/o3-build-scripts](associated project) are copied into `o3-spa` directory located in the Openmrs data directory. Follow instruction on how to configure the spa from the associated module.
+This Openmrs 3 UI SPA is deployed using the Openmrs spa backend module (already included in this configuration). The distribution files after being built [https://github.com/csaude/o3-build-scripts] are copied into `o3-spa` directory located in the Openmrs data directory. Follow instruction on how to configure the spa from the associated module.
 
 
 ## Ensuring OpenMRS is started at boot time.
