@@ -10,6 +10,7 @@ data/OpenMRS/REPORT_RESULTS
 data/OpenMRS/person_images
 data/OpenMRS/openmrs.log
 data/logs/
+data/OpenMRS/mozart2/
 
 # Ignore the provided dump file
 mysql/openmrs.sql
