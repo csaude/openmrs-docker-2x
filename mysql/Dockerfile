@@ -1,9 +1,9 @@
-FROM mysql:5.6
+FROM mysql:8.4.2
 
 ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_DATABASE=openmrs
-ENV MYSQL_USER=root
-ENV MYSQL_PASSWORD=root
+ENV MYSQL_DATABASE=openmrs_prod
+ENV MYSQL_USER=sesp
+ENV MYSQL_PASSWORD=sesp
 ENV MYSQL_DATA_DIRECTORY=/var/lib/mysql
 
 ADD mysql.cnf /root/.my.cnf

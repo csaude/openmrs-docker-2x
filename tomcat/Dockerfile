@@ -1,4 +1,4 @@
-FROM tomcat:8-jre8-temurin
+FROM tomcat:9.0.91-jre11-temurin-focal
 
 RUN mkdir -p /usr/local/tomcat/.OpenMRS
 
