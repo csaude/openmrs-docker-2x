@@ -598,15 +598,6 @@
               }
             },
             {
-              "label": "",
-              "type": "obs",
-              "id": "valorAdesaoTarv",
-              "questionOptions": {
-                "concept": "6b4fbf6a-66b8-4227-b8ca-787676cacd0a",
-                "rendering": "number"
-              }
-            },
-            {
               "label": "MOTIVO da consulta",
               "type": "obs",
               "id": "",
