@@ -1,0 +1,804 @@
+{
+  "name": "FICHA APSS e PP O3",
+  "description": "Ficha Apoio Psicossocial e PP Master Card",
+  "version": "2.0",
+  "published": true,
+  "retired": false,
+  "processor": "EncounterFormProcessor",
+  "encounter": "APSS: PREVENÇÃO POSITIVA - SEGUIMENTO",
+  "referencedForms": [],
+  "pages": [
+    {
+      "label": "FICHA APSS e PP",
+      "sections": [
+        {
+          "label": "ESTADO DA REVELAÇÃO DO DIAGNÓSTICO à Criança/Adolescente",
+          "isExpanded": false,
+          "questions": [
+            {
+              "label": " ",
+              "type": "obs",
+              "id": "diagState",
+              "questionOptions": {
+                "concept": "e2297477-2ca5-4eae-8abf-6b69b5c351b0",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "8279b6c1-572d-428c-be45-96e05fe6165d",
+                    "label": "Não"
+                  },
+                  {
+                    "concept": "63e43b2f-801f-412b-87bb-45db8e0ad21b",
+                    "label": "Parcial"
+                  },
+                  {
+                    "concept": "6e96f5a2-05bd-4183-809d-e554b853db3c",
+                    "label": "Total"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "ACONSELHAMENTO PRÉ-TARV",
+          "isExpanded": false,
+          "questions": [
+            {
+              "label": "Educação básica sobre HIV (prevenção;transmissão;progresso da doença;) e ADESÃO (Preparação; Necessidade de adesão; Plano de Tratamento)",
+              "type": "obs",
+              "id": "basicEducation",
+              "questionOptions": {
+                "concept": "8a412754-eeb1-4b05-ab81-8d463eff2dd9",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "FACTORES-PSICOSOCIAIS que afectam a adesão",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": " ",
+              "type": "obs",
+              "id": "dificuldade",
+              "questionOptions": {
+                "concept": "6106a026-b62d-445c-b7ca-9077bd05e218",
+                "rendering": "checkbox",
+                "answers": [
+                  {
+                    "concept": "e1e03cac-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Recusa do resultado Positivo"
+                  },
+                  {
+                    "concept": "e1e208e8-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Dificuldade para revelar o parceiro/família"
+                  },
+                  {
+                    "concept": "e1e022bc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Sente-se doente demais"
+                  },
+                  {
+                    "concept": "e1e07ece-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Toxicidade/Medo de efeitos secundários"
+                  },
+                  {
+                    "concept": "e2b9f1da-1751-4bdd-8e8f-07712accd7a3",
+                    "label": "Não acredita no TARV"
+                  },
+                  {
+                    "concept": "30c1044a-5d26-49cd-965a-4a722bb96066",
+                    "label": "Perdeu/Esqueceu/Partilhou comprimidos"
+                  },
+                  {
+                    "concept": "e60f0848-3f7f-4953-b1de-0ba65ed5ba70",
+                    "label": "São muitos comprimidos"
+                  },
+                  {
+                    "concept": "1cfc2c07-7fec-49c7-b992-836595716aa5",
+                    "label": "Estigma/Discriminação"
+                  },
+                  {
+                    "concept": "789412aa-de8b-4eea-ba63-d78d0e5470ce",
+                    "label": "Sente-se melhor"
+                  },
+                  {
+                    "concept": "e1d5f7b0-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Problemas de transporte"
+                  },
+                  {
+                    "concept": "7b77c04b-9089-11e6-a98e-000c29db4475",
+                    "label": "Falta de alimentação"
+                  },
+                  {
+                    "concept": "3ce7e214-03c6-4161-a8bd-002b3ee20b1d",
+                    "label": "Violência baseada no género"
+                  },
+                  {
+                    "concept": "e1e206ea-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Falta de apoio familiar"
+                  },
+                  {
+                    "concept": "1f54bc52-720f-449e-b29a-a1ad5356da76",
+                    "label": "Aspectos culturais ou tradicionais"
+                  },
+                  {
+                    "concept": "e1d004a4-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Sinais de depressão / ansiedade"
+                  },
+                  {
+                    "concept": "e1dcabf0-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Uso abusivo de álcool ou drogas"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Outro - Especifique:",
+              "type": "obs",
+              "id": "outroEspecifique",
+              "questionOptions": {
+                "concept": "e1e080cc-1d5f-11e0-b929-000c29ad1d07",
+                "rendering": "text"
+              }
+            }
+          ]
+        },
+        {
+          "label": "PREVENÇÃO POSITIVA",
+          "isExpanded": false,
+          "questions": [
+            {
+              "label": "Comportamento sexual - sexo seguro e oferta de preservativos",
+              "type": "obs",
+              "id": "comportamentoSexual",
+              "questionOptions": {
+                "concept": "b7c1d7b4-1e7b-44db-873e-6c96118969ce",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Revelação do seroestado a parceiro/a e convite para testagem",
+              "type": "obs",
+              "id": "revelacao",
+              "questionOptions": {
+                "concept": "6354587f-b2f2-4024-8afd-16179e2a5100",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Importância da adesão aos cuidados Pré-TARV e TARV",
+              "type": "obs",
+              "id": "importancia",
+              "questionOptions": {
+                "concept": "109b7590-14bb-449d-8c5c-b323180ec63e",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Infecções de Transmissão Sexual",
+              "type": "obs",
+              "id": "infeccoes",
+              "questionOptions": {
+                "concept": "1efdf913-c516-4a40-b094-cfdb88fbd762",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Planeamento Familiar (PF), Gravidez Segura (GS) e PTV",
+              "type": "obs",
+              "id": "planeamentoFamiliar",
+              "questionOptions": {
+                "concept": "e1e481ea-1d5f-11e0-b929-000c29ad1d07",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Consumo de álcool e outras drogas",
+              "type": "obs",
+              "id": "consumoAlcool",
+              "questionOptions": {
+                "concept": "546f76d8-b181-4818-bfa4-a417122b2247",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Necessidade de apoio comunitário",
+              "type": "obs",
+              "id": "necessidadeApoio",
+              "questionOptions": {
+                "concept": "ab58ab89-c6b3-4e3f-9915-b33678c16930",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "POPULAÇÕES CHAVE – Oferta de lubrificantes",
+              "type": "obs",
+              "id": "populacoesChave",
+              "questionOptions": {
+                "concept": "3397b23a-5d7f-4312-9dd6-96950b5313f4",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "SEGUIMENTO DA ADESÃO (APÓS INÍCIO TARV)",
+          "isExpanded": false,
+          "questions": [
+            {
+              "label": "Informou alguém sobre seu seroestado",
+              "type": "obs",
+              "id": "hivDisclosure",
+              "questionOptions": {
+                "concept": "e1d80960-1d5f-11e0-b929-000c29ad1d07",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "(Parentesco)",
+              "type": "obs",
+              "id": "parentesco",
+              "questionOptions": {
+                "concept": "dbf852ab-697f-4c92-a546-74e5301de419",
+                "rendering": "select",
+                "answers": [
+                  {
+                    "concept": "e1e09bf2-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "CHEFE DE  BAIRRO"
+                  },
+                  {
+                    "concept": "e1d6f264-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "AVO"
+                  },
+                  {
+                    "concept": "173580ba-859c-42cc-8d74-3a46564c8a0f",
+                    "label": "TRABALHADOR"
+                  },
+                  {
+                    "concept": "e1e09832-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "VIZINHO"
+                  },
+                  {
+                    "concept": "e1d7aa9c-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "TIA"
+                  },
+                  {
+                    "concept": "e1d6f070-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "PAI"
+                  },
+                  {
+                    "concept": "e1d6ef76-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "MAE"
+                  },
+                  {
+                    "concept": "a3594c0a-9e24-42be-a732-1a277ebd3951",
+                    "label": "PRIMO"
+                  },
+                  {
+                    "concept": "e1e01c9a-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "AMIGO OU COLEGA"
+                  },
+                  {
+                    "concept": "be234c58-760f-471d-80c0-ce1217bcc31b",
+                    "label": "NETO"
+                  },
+                  {
+                    "concept": "e1df78b2-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "PARCEIRO"
+                  },
+                  {
+                    "concept": "e1d6f16a-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "IRMAO"
+                  },
+                  {
+                    "concept": "a45237a4-9d90-460b-ad8f-ea81a048bfa9",
+                    "label": "FILHO"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Se criança, adolescente, idoso, se tem deficiência física mental – Quem administra os ARVS (Nome Proprio)",
+              "type": "obs",
+              "id": "nomeProprio",
+              "questionOptions": {
+                "concept": "5f651165-054f-4a2d-a83d-996a8de8eb87",
+                "rendering": "text"
+              }
+            },
+            {
+              "label": "(Parentesco)",
+              "type": "obs",
+              "id": "parentescoDois",
+              "questionOptions": {
+                "concept": "e1d7ae98-1d5f-11e0-b929-000c29ad1d07",
+                "rendering": "select",
+                "answers": [
+                  {
+                    "concept": "e1e781c4-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "OTHER FAMILY MEMBER"
+                  },
+                  {
+                    "concept": "e1e09bf2-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "CHEFE DE  BAIRRO"
+                  },
+                  {
+                    "concept": "e1d6f264-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "AVO"
+                  },
+                  {
+                    "concept": "173580ba-859c-42cc-8d74-3a46564c8a0f",
+                    "label": "TRABALHADOR"
+                  },
+                  {
+                    "concept": "e1e09832-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "VIZINHO"
+                  },
+                  {
+                    "concept": "e1d7aa9c-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "TIA"
+                  },
+                  {
+                    "concept": "e1d6f070-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "PAI"
+                  },
+                  {
+                    "concept": "e1d6ef76-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "MAE"
+                  },
+                  {
+                    "concept": "a3594c0a-9e24-42be-a732-1a277ebd3951",
+                    "label": "PRIMO"
+                  },
+                  {
+                    "concept": "e1e01c9a-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "AMIGO OU COLEGA"
+                  },
+                  {
+                    "concept": "e1d7ad9e-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "PROPRIO"
+                  },
+                  {
+                    "concept": "be234c58-760f-471d-80c0-ce1217bcc31b",
+                    "label": "NETO"
+                  },
+                  {
+                    "concept": "e1df78b2-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "PARCEIRO"
+                  },
+                  {
+                    "concept": "e1d6f16a-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "IRMAO"
+                  },
+                  {
+                    "concept": "a45237a4-9d90-460b-ad8f-ea81a048bfa9",
+                    "label": "FILHO"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "PLANO DE ADESÃO – Horário; Esquecimento da dose; Viagem",
+              "type": "obs",
+              "id": "planoAdesao",
+              "questionOptions": {
+                "concept": "d05c1eec-0757-4efa-a26a-c77152ae3718",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "EFEITOS SECUNDÁRIOS – O que pode ocorrer; Como manejar efeitos secundários",
+              "type": "obs",
+              "id": "efeitosSecundarios",
+              "questionOptions": {
+                "concept": "a29f6066-5acd-4e48-92a0-f3faf6e7a448",
+                "rendering": "toggle",
+                "toggleOptions": {
+                  "labelTrue": "S",
+                  "labelFalse": "N"
+                },
+                "answers": [
+                  {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "N"
+                  },
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "S"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "ADESÃO ao TARV",
+              "type": "obs",
+              "id": "obsEmptyNove",
+              "questionOptions": {
+                "concept": "983773e6-d42c-4ad3-89a7-9191a8b8d52b",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1dac772-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Boa"
+                  },
+                  {
+                    "concept": "e1de519e-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Risco"
+                  },
+                  {
+                    "concept": "e1dac970-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Má"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Percentual de Adesão",
+              "type": "obs",
+              "id": "percentualAdesaoTarv",
+              "questionOptions": {
+                "concept": "69207f66-c4ba-4775-a57c-feea5b9133ac",
+                "rendering": "number"
+              }
+            },
+            {
+              "label": "MOTIVO da consulta",
+              "type": "obs",
+              "id": "",
+              "questionOptions": {
+                "concept": "690532e7-2947-415e-b84e-ef7c867ceba1",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d85b22-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Normal"
+                  },
+                  {
+                    "concept": "d4eb7812-5409-4e3f-ba5a-468a207c8e7f",
+                    "label": "Faltoso"
+                  },
+                  {
+                    "concept": "e1de1df0-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Abandono"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "GRUPOS DE APOIO",
+          "isExpanded": false,
+          "questions": [
+            {
+              "label": "Crianças Reveladas",
+              "type": "obs",
+              "id": "cr",
+              "questionOptions": {
+                "concept": "70cb2221-d0bd-4e30-bbd5-7da8a3ba01ab",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Adolescentes Revelados",
+              "type": "obs",
+              "id": "ar",
+              "questionOptions": {
+                "concept": "230c81e9-961f-478a-987d-3af637e83e5e",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Pais e Cuidadores",
+              "type": "obs",
+              "id": "pc",
+              "questionOptions": {
+                "concept": "7a72cf0c-5f43-436d-92d9-6f04cbb0a0b9",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Mãe para Mãe",
+              "type": "obs",
+              "id": "mpm",
+              "questionOptions": {
+                "concept": "ae8d45d0-14b9-460e-888d-f883de83be26",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Adolescente e Jovem Mentor",
+              "type": "obs",
+              "id": "ajm",
+              "questionOptions": {
+                "concept": "4387180e-695f-4c99-8182-33e51907062a",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Homem Campeão",
+              "type": "obs",
+              "id": "hc",
+              "questionOptions": {
+                "concept": "b856b79b-2e8e-4764-ae8b-c8b509cdda76",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Mães Mentoras",
+              "type": "obs",
+              "id": "mm",
+              "questionOptions": {
+                "concept": "a1d858ea-3a19-41e1-879d-2457440e1d36",
+                "rendering": "content-switcher",
+                "answers": [
+                  {
+                    "concept": "e1d9ef28-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Início"
+                  },
+                  {
+                    "concept": "e1d9f036-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Continua"
+                  },
+                  {
+                    "concept": "e1d9facc-1d5f-11e0-b929-000c29ad1d07",
+                    "label": "Fim"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Outro, Especifique o grupo:",
+              "type": "obs",
+              "id": "outroGrupo",
+              "questionOptions": {
+                "concept": "f22a9436-4ed4-401c-84ea-0c7dbf910639",
+                "rendering": "text"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
